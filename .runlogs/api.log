@@ -1,0 +1,6 @@
+[finora] MongoDB unavailable at startup: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 69ed27c826b4236fb8356e4c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:     127.0.0.1:62077 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62079 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56205 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56205 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64554 - "GET / HTTP/1.1" 200 OK
