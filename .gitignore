@@ -10,6 +10,13 @@ node_modules/
 # Build artifacts
 dist/
 coverage/
+.runlogs/
+
+# Local tooling and databases
+.tools/
+.mongo-data/
+*.pdb
+*.zip
 
 # Local env
 .env
